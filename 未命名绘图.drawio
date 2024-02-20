@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T07:38:05.848Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" version="23.1.5" etag="st5UJnwWJcVvcpB4fqW1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T07:44:31.196Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0" etag="gyHnADYMxqHHzU38z8Fl" version="23.1.5" type="github">
   <diagram name="第 1 页" id="Wj9G6-A7ILz4VfcKPqan">
-    <mxGraphModel>
+    <mxGraphModel dx="1371" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JJu4FxPs39PVHn8Kxx6i-1" target="JJu4FxPs39PVHn8Kxx6i-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JJu4FxPs39PVHn8Kxx6i-1" target="JJu4FxPs39PVHn8Kxx6i-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-1" value="阿里云主账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-2" value="子账号1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JJu4FxPs39PVHn8Kxx6i-3" target="JJu4FxPs39PVHn8Kxx6i-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-3" value="AppKey与secret" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-5" value="用于开发人员登录阿里云查看" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-7" value="&lt;div&gt;直接基于主账号分配&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JJu4FxPs39PVHn8Kxx6i-8" target="JJu4FxPs39PVHn8Kxx6i-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-10" value="进行权限控制，限制桶权限" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="215" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JJu4FxPs39PVHn8Kxx6i-11" target="JJu4FxPs39PVHn8Kxx6i-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-11" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-13" value="按照Aliyun Policy进行策略控制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="455" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JJu4FxPs39PVHn8Kxx6i-14" target="JJu4FxPs39PVHn8Kxx6i-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-14" value="临时STS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-16" value="基于AppKey分配" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-17" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JJu4FxPs39PVHn8Kxx6i-19" value="&lt;div&gt;调用方使用临时STS&lt;/div&gt;&lt;div&gt;完成OSS接口调用&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="630" width="130" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
